@@ -1,0 +1,85 @@
+.btnn{
+  background-color: #F026F8;
+  border-radius: 4px;
+  border: 1px solid #F026F8;
+  color:white;
+  cursor: pointer;
+  display: block;
+  font-size: 35px;
+  font-weight: normal;
+  line-height: 1.42857143;
+  width: 70%;
+  text-align: center;
+  text-transform: none;
+  vertical-align: middle;
+  white-space: nowrap;
+  margin: auto;
+}
+.btnn:hover{
+  background-color:white;
+  color:#F026F8;
+  text-decoration: none;
+}
+.navbar-default{
+  background-color: #40A8F4;
+  padding-top: 10px;
+}
+.navT:hover{
+  text-decoration: none;
+  color: white;
+}
+.navT{
+  color:white;
+  font-size: 22px;
+  letter-spacing: 1.5px;
+}
+/* Space out content a bit */
+body {
+    padding-top: 70px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+.logo{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.options-container .btn {
+  padding: 10px 16px;
+  margin: 5px 5px;
+}
+.letters-container .btn {
+  margin:0 2px;
+  margin-bottom: 10px;
+}
+.level-img{
+  width: 100%;
+  margin: 20px auto;
+}
+.btn-primary{
+  background: #9933FF;
+  border-color: #9933FF;
+}
+.btn-primary:hover{
+  border-color: #9933FF;
+  background-color: #9933FF; 
+}
+.btn-success{
+  background-color: #1EFF74;
+  border-color: #1EFF74;
+}
+.btn-success:hover{
+  background-color: #1EFF74;
+  border-color: #1EFF74;
+}
+h1{
+  color:#A54BFF;
+}
+span{
+  color:#FF20C6;
+}
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+    .container {
+        max-width: 320px;
+    }
+}
